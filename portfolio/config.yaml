@@ -1,4 +1,4 @@
-baseURL: "https://github.com/fbc101/fbc-portfolio"
+baseURL: "https://fbc101.github.io/fbc-portfolio/portfolio"
 languageCode: "en-us"
 title: "Franci's Portfolio"
 theme: hugo-profile
