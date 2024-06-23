@@ -168,9 +168,6 @@ params:
         company: "Amazon"
         companyUrl: "https://www.amazon.jobs/en/jobs/2481711/2024-software-dev-engineer-intern"
         date: "Jun 2023 - Aug 2023"
-        info:
-          enable: true
-          content: I worked as a software developer intern in Amazon for three months.
         content: |
 
           - Implemented new scalable feature within an API to update existing clients configurations
