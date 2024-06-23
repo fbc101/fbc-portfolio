@@ -21,6 +21,9 @@ jobs:
           hugo-version: "0.123.4"
           extended: true
 
+      - name: 🗑️ Clean Public Directory
+        run: rm -rf public
+
       - name: 🏗️ Compile Hugo Static Files
         run: hugo -D --gc --minify
 
@@ -28,6 +31,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3.9.3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: public
           publish_branch: gh-pages
           user_name: "github-actions[bot]"
           user_email: "github-actions[bot]@users.noreply.github.com"
