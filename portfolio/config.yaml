@@ -22,18 +22,6 @@ markup:
     renderer:
       unsafe: true
 
-Menus:
-  main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -129,7 +117,7 @@ params:
     title: "Franci Branda-Chen"
     subtitle: "Full Stack SWE"
     content: "As a Full Stack Software Engineer, I love the mix of creativity, problem-solving, and continuous learning that comes with the job. Working on both the front-end and back-end keeps things exciting and helps me understand the whole system. I find it incredibly rewarding to turn ideas into functional applications and take pride in seeing projects through from start to finish. Plus, collaborating with diverse teams exposes me to new ideas and perspectives, leading to more innovative solutions and motivating me to create user-friendly applications."
-    image: /images/hero.svg
+    image: /images/pfp.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -143,13 +131,15 @@ params:
       fontAwesomeIcons:
         - icon: fab fa-github
           url: https://github.com/fbc101
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/fbc-francibrandachen/
 
 
   # About
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/images/mt.jpg"
     content: |-
       I am a rising senior with a major in Computer Science and minor in Data Science at the [University of Pennsylvania](https://www.upenn.edu/). I have an interest in web development, and
       recently in Android development. Outside of work, I enjoy rock climbing, ping pong, pickleball, biking, board games, video games, cooking, and many other things.
@@ -158,13 +148,14 @@ params:
       enable: true
       title: "Here is a few of my technical skills:"
       items:
-        - "Python"
-        - "Java"
-        - "JavaScript"
-        - "React"
-        - "Node"
+        - "Java (Advanced)"
+        - "JavaScript (Advanced)"
+        - "TypeScript (Advanced)"
+        - "Python (Beginner)" 
+        - "React (Proficient)"
+        - "Node "
         - "Express"
-        - "SQL"
+        - "SQL (Advanced)"
         - "APIs"
         - "AWS Products (S3, DymanoDB, CloudWatch, Lambda, etc)"
 
@@ -209,85 +200,53 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "Master of Business Administration"
+      - title: "Bachelor of Applied Science in Computer Science"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
+          name: "University of Pennsylvania - Philadelphia, PA"
+          url: "https://www.upenn.edu/"
+        date: "2021 - 2025"
+        GPA: "3.44 / 4.0"
         content: |-
           Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
+            - Penn Climbing Club, Member
+        featuredLink:
+          enable: true
+          name: "Unofficial Transcript"
+          url: "https://drive.google.com/uc?export=download&id=1R-Ex1Aka-Cims7raR-GZquSk0nhDV3fa"
+      - title: "Bachelor of Arts"
         school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
+          name: "Central High School - Philadelphia, PA"
+          url: "https://centralhs.philasd.org/"
+        date: "2017 - 2021"
+        GPA: "4.31 out of 4.0"
+        featuredLink:
+          enable: true
+          name: "Transcript"
+          url: "https://drive.google.com/uc?export=download&id=13mqOdbj870wJBBL369JYFGFrVr1KvgF8"
         content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
-
           Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
-        school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-
-  # Achievements
-  achievements:
-    enable: true
-    # title: "Custom Name"
-    items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-        image: /images/achievment.jpg
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-        image: /images/achievment.jpg
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-        image: /images/achievment.jpg
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+            - Wrestling Team
+            - Tennis JV
 
   # projects
   projects:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
+      - title: Penn Course Search - Chrome Extension
         content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
+        image: /images/projects/PennCourseSearch.png
         featured:
           name: Demo
           link: https://hugo-profile.netlify.app
         badges:
-          - "Hugo"
-          - "Bootstrap"
           - "Javascript"
+          - "React"
         links:
           - icon: fa fa-envelope
             url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
+            url: https://github.com/fbc101/PennCourseChromeExtension
           - icon: fab fa-twitter
             url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
@@ -321,10 +280,10 @@ params:
   #Contact
   contact:
     enable: true
-    # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    title: "Contact"
+    content: Feel free to reach out via gmail, or LinkedIn!
     btnName: Mail me
-    btnLink: mailto:gurusabarisha@gmail.com
+    btnLink: mailto:fbc101@seas.upenn.ed
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
@@ -333,18 +292,9 @@ params:
     #   messageRows: 5
 
   footer:
-    recentPosts:
-      path: "blogs"
-      count: 3
-      title: Recent Posts
-      enable: true
-      disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/fbc101
+      linkedin: https://www.linkedin.com/in/fbc-francibrandachen/
 
   # List pages like blogs and posts
   listPages:
