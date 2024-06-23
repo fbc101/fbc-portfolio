@@ -1,4 +1,4 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://github.com/fbc101/fbc-personal-portfolio"
 languageCode: "en-us"
 title: "Franci's Portfolio"
 theme: hugo-profile
