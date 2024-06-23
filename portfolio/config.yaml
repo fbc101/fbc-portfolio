@@ -234,48 +234,48 @@ params:
     # title: "Custom Name"
     items:
       - title: Penn Course Search - Chrome Extension
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
+        content: This extension aims to facilitate the query for a specific Penn course without having to open additional tabs.
         image: /images/projects/PennCourseSearch.png
         featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+          name: Download
+          link: https://chromewebstore.google.com/detail/penn-course-search/ebepgdgiamijmmppoaobmbohijppaieo?authuser=0&hl=en
         badges:
           - "Javascript"
           - "React"
         links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
             url: https://github.com/fbc101/PennCourseChromeExtension
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
+      - title: Scholar Streets
+        content: ScholarStreets is a comprehensive platform designed to assist users, especially parents, in finding suitable schools, neighborhoods, and homes. Leveraging educational data and housing information, ScholarStreets provides tailored recommendations to meet the diverse needs of users.
+        image: /images/projects/ScholarStreetT1.png
         featured:
           name: Demo
-          link: https://django-converter.herokuapp.com
+          link: https://drive.google.com/file/d/1U_66K9Zgolf7DMDR83Meo1PEv57RHHiP/view
         badges:
-          - "Django"
-          - "Bootstrap"
+          - "JavaScript"
+          - "Node"
+          - "Express"
+          - "React"
+          - "SQL"
+          - "Google Maps API"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+            url: https://github.com/hussainzs/ScholarStreets
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+      - title: Pennstagram - Instagram Lite
+        content: Final project for Cloud Computing and Scaling class. This project is a lite version of Instagram with features such as- recommendations for posts and users with LangChain, likes, comments, friend requests, invitations for chats, profile changes, face matching with actors, etc. The Github repository is private since we used the University's credentials for AWS.
+        image: /images/projects/Pennstagram.png
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+          - "Typescript"
+          - "React"
+          - "Node"
+          - "Express"
+          - "SQL"
+          - "Apache Kafka"
+          - "ChromaDB"
+          - "Langchain"
+          - "AWS (RDS, Amazon S3, EC2)"
 
   #Contact
   contact:
