@@ -12,7 +12,8 @@ hugo.linux
 .hugo_build.lock
 
 # Hugo-generated directory
-portfolio/public/
+/public/
+/portfolio/public
 */public/*
 
 # Dependency directories (remove if you track dependencies)
