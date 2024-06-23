@@ -117,7 +117,7 @@ params:
     title: "Franci Branda-Chen"
     subtitle: "Full Stack SWE"
     content: "As a Full Stack Software Engineer, I love the mix of creativity, problem-solving, and continuous learning that comes with the job. Working on both the front-end and back-end keeps things exciting and helps me understand the whole system. I find it incredibly rewarding to turn ideas into functional applications and take pride in seeing projects through from start to finish. Plus, collaborating with diverse teams exposes me to new ideas and perspectives, leading to more innovative solutions and motivating me to create user-friendly applications."
-    image: /images/pfp.jpg
+    image: ./images/pfp.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -139,7 +139,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/mt.jpg"
+    image: "./images/mt.jpg"
     content: |-
       I am a rising senior with a major in Computer Science and minor in Data Science at the [University of Pennsylvania](https://www.upenn.edu/). I have an interest in web development, and
       recently in Android development. Outside of work, I enjoy rock climbing, ping pong, pickleball, biking, board games, video games, cooking, and many other things.
@@ -235,7 +235,7 @@ params:
     items:
       - title: Penn Course Search - Chrome Extension
         content: This extension aims to facilitate the query for a specific Penn course without having to open additional tabs.
-        image: /images/projects/PennCourseSearch.png
+        image: ./images/projects/PennCourseSearch.png
         featured:
           name: Download
           link: https://chromewebstore.google.com/detail/penn-course-search/ebepgdgiamijmmppoaobmbohijppaieo?authuser=0&hl=en
@@ -248,7 +248,7 @@ params:
 
       - title: Scholar Streets
         content: ScholarStreets is a comprehensive platform designed to assist users, especially parents, in finding suitable schools, neighborhoods, and homes. Leveraging educational data and housing information, ScholarStreets provides tailored recommendations to meet the diverse needs of users.
-        image: /images/projects/ScholarStreetT1.png
+        image: ./images/projects/ScholarStreetT1.png
         featured:
           name: Demo
           link: https://drive.google.com/file/d/1U_66K9Zgolf7DMDR83Meo1PEv57RHHiP/view
@@ -265,7 +265,7 @@ params:
 
       - title: Pennstagram - Instagram Lite
         content: Final project for Cloud Computing and Scaling class. This project is a lite version of Instagram with features such as- recommendations for posts and users with LangChain, likes, comments, friend requests, invitations for chats, profile changes, face matching with actors, etc. The Github repository is private since we used the University's credentials for AWS.
-        image: /images/projects/Pennstagram.png
+        image: ./images/projects/Pennstagram.png
         badges:
           - "Typescript"
           - "React"
