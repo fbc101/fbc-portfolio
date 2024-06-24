@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Franci&#39;s Portfolio</title>
-    <link>http://localhost:1313/fbc-portfolio/</link>
-    <description>Recent content on Franci&#39;s Portfolio</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="http://localhost:1313/fbc-portfolio/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Franci's Portfolio</title><link>https://fbc101.github.io/fbc-portfolio/</link><description>Recent content on Franci's Portfolio</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://fbc101.github.io/fbc-portfolio/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
