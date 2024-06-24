@@ -21,7 +21,7 @@ jobs:
           hugo-version: '0.121.1'
           extended: true
       - name: Build
-        run: hugo --source public --minify --cleanDestinationDir --enableGitInfo --gc --printPathWarnings --templateMetrics
+        run: hugo --source public --minify 
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
