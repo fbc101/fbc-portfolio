@@ -19,10 +19,12 @@ markup:
     renderer:
       unsafe: true
 
+publishDir: "docs"
+
 params:
   title: "Franci's Portfolio"
   description: This site is Franci's personal portfolio, which contains work experience, projects, etc.
-  # staticPath: ""  # The path to serve the static files from
+  staticPath: "/static"  # The path to serve the static files from
   favicon: "./favduck.png"
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
