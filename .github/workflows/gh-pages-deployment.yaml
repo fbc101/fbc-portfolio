@@ -1,33 +1,38 @@
-name: 🏗️ Build and Deploy GitHub Pages
+name: GitHub Pages
 
 on:
   push:
     branches:
-      - main # Set a branch to deploy
+      - main  # Set a branch name to trigger deployment
+  pull_request:
 
 jobs:
   deploy:
     runs-on: ubuntu-22.04
+    permissions:
+      contents: write
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-      - name: 🔄 Check Out Source Repository
-        uses: actions/checkout@v3.5.1
+      - uses: actions/checkout@v3
         with:
-          submodules: true # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-      - name: 🛠️ Initialize Hugo Environment
-        uses: peaceiris/actions-hugo@v2.6.0
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: "0.123.4"
-          extended: true
+          hugo-version: '0.110.0'
 
-      - name: 🏗️ Compile Hugo Static Files
-        run: hugo -D --gc --minify
+      - name: Build
+        run: hugo --minify
 
-      - name: 🚀 Publish to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3.9.3
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
+        # If you're changing the branch from main,
+        # also change the `main` in `refs/heads/main`
+        # below accordingly.
+        if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
-          user_name: "github-actions[bot]"
-          user_email: "github-actions[bot]@users.noreply.github.com"
+          publish_dir: ./public
