@@ -110,7 +110,7 @@ params:
     title: "About Me"
     image: "./images/mt.jpg"
     content: |-
-      I am a rising senior with a major in Computer Science and minor in Data Science at the [University of Pennsylvania](https://www.upenn.edu/). I have an interest in web development, and
+      I am a rising senior pursuing a major in Computer Science and minor in Data Science at the [University of Pennsylvania](https://www.upenn.edu/). I have an interest in web development, and
       recently in Android development. Outside of work, I enjoy rock climbing, ping pong, pickleball, biking, board games, video games, cooking, and many other things.
     skills:
       enable: true
