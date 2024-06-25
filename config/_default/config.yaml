@@ -85,7 +85,8 @@ params:
     intro: "Hi, my name is"
     title: "Franci Branda-Chen"
     subtitle: "Full Stack SWE"
-    content: "I love the mix of creativity, problem-solving, and continuous learning that comes with the job. Working on both the front-end and back-end keeps things exciting and helps me understand the whole system. I find it incredibly rewarding to turn ideas into functional applications and take pride in seeing projects through from start to finish. Plus, collaborating with diverse teams exposes me to new ideas and perspectives, leading to more innovative solutions and motivating me to create user-friendly applications."
+    content: "
+    I love the mix of creativity, problem-solving, and continuous learning that comes with the job. Working on both the front-end and back-end keeps things exciting and helps me understand the whole system. I find it incredibly rewarding to turn ideas into functional applications and take pride in seeing projects through from start to finish. Plus, collaborating with diverse teams exposes me to new ideas and perspectives, leading to more innovative solutions and motivating me to create user-friendly applications."
     image: ./images/pfp.jpg
     bottomImage:
       enable: true
