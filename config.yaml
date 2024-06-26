@@ -95,7 +95,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "https://drive.google.com/uc?export=download&id=1-5N7Ub04NqpM6FK63pkp6kkRudcQZr_t"
+      url: "https://drive.google.com/uc?export=download&id=1SXvA5oaBltwK0n03jQTwQj2qvyKIfl6e"
       download: true
       newPage: false
     socialLinks:
@@ -131,17 +131,6 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Software Developer Intern"
-        company: "Amazon"
-        companyUrl: "https://www.amazon.jobs/en/jobs/2481711/2024-software-dev-engineer-intern"
-        date: "Jun 2023 - Aug 2023"
-        content: |
-          - Implemented new scalable feature within an API to update existing clients configurations
-          - Worked with Amazon S3 and DynamoDB to store clients configurations
-          - Added new unit tests for the feature with Mockito, achieving 99%-line coverage for the code review
-          - Designed and implemented a search tab within the team's UX Dashboard with React, enabling internal clients and team members to query existing configurations.
-          - Actively participated in daily standup meetings with my team, where I discussed the project progress and sought advice to overcome obstacles within my code
-          - Used regex for pattern matching within API response
       - job: "Software Engineer Intern"
         company: "Capital One"
         companyUrl: "https://www.capitalonecareers.com/internship-programs"
@@ -150,10 +139,25 @@ params:
           enable: false
         content: |
           - Set up UI with Vue for an internal tool that is used by Capital One managers
-          - Worked on a configuration file to deploy our application
+          - Worked on a configuration file to deploy my team's application
           - Actively participated in daily stand-up meetings as part of the Agile software development process, ensuring effective communication and collaboration within the team.
-          - Utilized tools such as JIRA to track progress, report issues, and manage tasks in line with Agile best practices
-          - Collaborated in the design of API endpoints and structure of the backend
+          - Used tools such as JIRA to track progress, report issues, and manage tasks in line with Agile best practices
+          - Collaborated in the design of API endpoints, structure of the backend and schema for the database
+          
+      - job: "Software Developer Intern"
+        company: "Amazon"
+        companyUrl: "https://www.amazon.jobs/en/jobs/2481711/2024-software-dev-engineer-intern"
+        date: "Jun 2023 - Aug 2023"
+        info:
+          enable: false
+        content: |
+          - Implemented new scalable feature within an API to update existing clients configurations
+          - Worked with Amazon S3 and DynamoDB to store clients configurations
+          - Added new unit tests for the feature with Mockito, achieving 99%-line coverage for the code review
+          - Designed and implemented a search tab within the team's UX Dashboard with React, enabling internal clients and team members to query existing configurations.
+          - Actively participated in daily standup meetings with my team, where I discussed the project progress and sought advice to overcome obstacles within my code
+          - Used regex for pattern matching within API response
+      
   # Education
   education:
     enable: true
@@ -178,7 +182,7 @@ params:
           name: "Central High School - Philadelphia, PA"
           url: "https://centralhs.philasd.org/"
         date: "2017 - 2021"
-        GPA: "4.31 out of 4.0"
+        GPA: "4.31 / 4.0"
         featuredLink:
           enable: true
           name: "Transcript"
