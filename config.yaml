@@ -237,6 +237,16 @@ params:
           - "ChromaDB"
           - "Langchain"
           - "AWS (RDS, Amazon S3, EC2)"
+      - title: Checkers
+        content: Checkers game for two players on the same device. Player's must capture in their turn if they are able to. The game supports multi-captures in a single turn. You can save a game and continue another time!
+        image: ./images/projects/Checkers.png
+        badges:
+          - "Java"
+          - "JUnit Tests"
+          - "Java Swing"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/fbc101/Checkers/tree/main
   #Contact
   contact:
     enable: true
