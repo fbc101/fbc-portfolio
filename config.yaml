@@ -95,7 +95,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "https://drive.google.com/uc?export=download&id=1SXvA5oaBltwK0n03jQTwQj2qvyKIfl6e"
+      url: "https://drive.google.com/uc?export=download&id=1ie215HqVHHG5MrS2U4iRt416KnxsR_nh"
       download: true
       newPage: false
     socialLinks:
@@ -138,11 +138,11 @@ params:
         info:
           enable: false
         content: |
-          - Set up UI with Vue for an internal tool that is used by Capital One managers
-          - Worked on a configuration file to deploy my team's application
-          - Actively participated in daily stand-up meetings as part of the Agile software development process, ensuring effective communication and collaboration within the team.
-          - Used tools such as JIRA to track progress, report issues, and manage tasks in line with Agile best practices
-          - Collaborated in the design of API endpoints, structure of the backend and schema for the database
+          - Designed and developed an application that reduced managerial manual labor in accounting for 40% of time spent off the phone by 10,000 call center agents
+          - Developed Vue.js UI for an internal managerial tool and wrote comprehensive documentation for its set up, leading to cost savings and accelerated deployment of subsequent UI applications by contractor teams
+          - Deployed CRUD API endpoints to streamline integration with the frontend UI, ensuring efficient data interaction and smooth user experience
+          - Collaborated on API endpoints design and implementation, backend structure, and database schema
+
           
       - job: "Software Developer Intern"
         company: "Amazon"
